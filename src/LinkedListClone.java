@@ -63,6 +63,7 @@ public class LinkedListClone {
 			}
 			tempNode2 = tempNode.getNext();
 			tempNode.setNext(tempNode2.getNext());
+			
 			System.out.println("Deleted value : " + tempNode2.getData());
 		}
 	}
